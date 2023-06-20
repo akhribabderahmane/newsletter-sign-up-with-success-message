@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color:  hsl(234, 29%, 20%);
+    font-family: url(./assets/fonts/Roboto-Regular.ttf);
+}
+svg{
+    fill:hsl(4, 100%, 67%);
+}
+button{
+    background-color: hsl(234, 29%, 20%);
+    transition: 0.5s;
+}
+button:hover{
+    background:linear-gradient(to right bottom,hsl(235, 18%, 26%),hsl(4, 100%, 67%),hsl(4, 100%, 67%));
+}
