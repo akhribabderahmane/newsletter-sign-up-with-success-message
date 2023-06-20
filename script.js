@@ -20,10 +20,9 @@ dismissBtn.addEventListener("click",()=>{
     showMailPage();
 });
 submitBtn.addEventListener("click",()=>{
-    if(!checkEmailValid()){
     hideMailPage();
     showthanksPage();
-    } 
+  
 });
 
 function checkEmailValid(){
